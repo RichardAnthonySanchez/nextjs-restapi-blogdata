@@ -1,6 +1,6 @@
 import  clientPromise  from '@lib/mongo/index'
 
-export const GET = async (req) => {
+export const GET = async () => {
     try {
         const posts = await clientPromise()
 
